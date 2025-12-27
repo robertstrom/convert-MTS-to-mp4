@@ -97,4 +97,3 @@ Rotation                        : 0
 GPS Latitude Ref                : North
 GPS Longitude Ref               : West
 GPS Position                    : 44 deg 43' 41.93" N, 110 deg 42' 2.86" W
-

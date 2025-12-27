@@ -3,6 +3,7 @@
 # --- CONFIGURATION ---
 ENCODER_TYPE="nvidia"    # Options: "nvidia", "intel", or "cpu" (AMD uses different VAAPI syntax in Linux)
 AUTHOR_NAME="Robert Strom"
+CAMERA_MAKE="Sony"       # Hard-coded to prevent "264" codec ID error
 DATE_FORMAT="%Y-%m-%d %H:%M:%S"
 
 # 1. Prompt for Source Directory
@@ -71,7 +72,8 @@ for FILE in "$SOURCE_DIR"/*.MTS; do
             "-QuickTime:CreateDate<DateTimeOriginal" \
             "-QuickTime:ModifyDate<DateTimeOriginal" \
             "-Keys:Author=$AUTHOR_NAME" "-Keys:Artist=$AUTHOR_NAME" \
-            "-Keys:Make<Make" "-Keys:Model<Model" \
+            "-Keys:Make=$CAMERA_MAKE" "-UserData:Make=$CAMERA_MAKE" \
+            "-Keys:Model<Model" \
             "-Keys:GPSCoordinates<GPSPosition" \
             "-Keys:GPSCoordinates<Composite:GPSPosition" \
             "-GPSLatitude<GPSLatitude" "-GPSLatitudeRef<GPSLatitudeRef" \

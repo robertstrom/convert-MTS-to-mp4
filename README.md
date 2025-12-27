@@ -3,11 +3,11 @@ This script converts the MTS files in a directory to mp4 files and carries over 
 
 The goal was to ensure that most, if not all, of the exif data that was contained in the MTS video files was included in the converted MP4 files. In particular I wanted the GPS information.
 
-What is shown below is an example of the resulting exif data in a converted MP4 file
+What is shown below is an example of the resulting exif data in a converted MP4 file:
 
 
-ExifTool Version Number         : 12.40
-File Name                       : Yellowstone Painters Pot - 1 (2020-10-28).mp4
+ExifTool Version Number         : 12.40\
+File Name                       : Yellowstone Painters Pot - 1 (2020-10-28).mp4\
 Directory                       : .
 File Size                       : 100 MiB
 File Modification Date/Time     : 2025:12:27 15:09:46-08:00

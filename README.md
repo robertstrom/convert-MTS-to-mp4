@@ -75,7 +75,7 @@ Handler Type                    : Metadata Tags\
 Artist                          : Robert Strom\
 Author                          : Robert Strom\
 GPS Coordinates                 : 44 deg 43' 41.93" N, 110 deg 42' 2.86" W\
-Make                            : 264\
+Make                            : Sony\
 Model                           : DSC-HX50V\
 XMP Toolkit                     : Image::ExifTool 12.40\
 Exposure Time                   : 1/52\

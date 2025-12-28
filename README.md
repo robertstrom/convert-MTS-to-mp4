@@ -150,6 +150,50 @@ Injecting Sony RTMD/Extended Attribute Metadata...
     1 image files updated
 File End:   2025-12-27 15:41:10
 Duration:   1m 15s
+...
+...
+...
+--------------------------------------------------
+Processing: Yellowstone - walkway pano (2020-10-25).MTS
+File Start: 2025-12-27 16:24:19
+Injecting Sony RTMD/Extended Attribute Metadata...
+    1 image files updated
+File End:   2025-12-27 16:24:39
+Duration:   0m 20s
+--------------------------------------------------
+Processing: Yellowstone - waterfall - 1 (2020-10-28).MTS
+File Start: 2025-12-27 16:24:39
+Injecting Sony RTMD/Extended Attribute Metadata...
+    1 image files updated
+File End:   2025-12-27 16:24:57
+Duration:   0m 18s
+--------------------------------------------------
+Processing: Yellowstone - waterfall - 2 (2020-10-28).MTS
+File Start: 2025-12-27 16:24:57
+Injecting Sony RTMD/Extended Attribute Metadata...
+    1 image files updated
+File End:   2025-12-27 16:25:25
+Duration:   0m 28s
+--------------------------------------------------
+Processing: Yellowstone - water flowing under ice (2020-10-25).MTS
+File Start: 2025-12-27 16:25:25
+Injecting Sony RTMD/Extended Attribute Metadata...
+    1 image files updated
+File End:   2025-12-27 16:25:55
+Duration:   0m 29s
+--------------------------------------------------
+Processing: Yellowstone - water flowing under walkway (2020-10-27).MTS
+File Start: 2025-12-27 16:25:55
+Injecting Sony RTMD/Extended Attribute Metadata...
+    1 image files updated
+File End:   2025-12-27 16:26:24
+Duration:   0m 29s
+--------------------------------------------------
+==================================================
+Batch Finished: 2025-12-27 16:26:24
+TOTAL TIME:     0h 49m 27s
+==================================================
+
 --------------------------------------------------
 ```
 

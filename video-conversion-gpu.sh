@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-# Use the GPU option if at all possible. Using the GPU performs the video conversion many times faster than using the CPU
+ENCODER_TYPE="nvidia"    # Options: "nvidia", "intel", or "cpu" (AMD uses different VAAPI syntax in Linux)
 
 # Should try using this on the GMKtec Mini PC N150 - it has an Intel GPU. Probably not very powerful, but work a try
 
-ENCODER_TYPE="nvidia"    # Options: "nvidia", "intel", or "cpu" (AMD uses different VAAPI syntax in Linux)
 AUTHOR_NAME="Robert Strom"
 CAMERA_MAKE="Sony"       # Hard-coded to prevent "264" codec ID error
 DATE_FORMAT="%Y-%m-%d %H:%M:%S"
